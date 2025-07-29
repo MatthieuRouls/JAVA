@@ -1,9 +1,6 @@
 package training.afpa.cda24060.Main.main;
 
-import training.afpa.cda24060.Main.exercices.Create;
-import training.afpa.cda24060.Main.exercices.Dichotomie;
-import training.afpa.cda24060.Main.exercices.Factorielle;
-import training.afpa.cda24060.Main.exercices.PommesEtPaniers;
+import training.afpa.cda24060.Main.exercices.*;
 
 import java.util.Scanner;
 
@@ -18,6 +15,9 @@ public class main {
 
         Dichotomie d = new Dichotomie();
         d.dicho();
+
+        EquationSecondDegre e = new EquationSecondDegre();
+        e.secondDegre();
 
     }
 
