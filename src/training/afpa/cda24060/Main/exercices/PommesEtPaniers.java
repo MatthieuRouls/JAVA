@@ -1,4 +1,4 @@
-package training.afpa.cda24060.Main.Exo;
+package training.afpa.cda24060.Main.exercices;
 
 import java.util.Scanner;
 
@@ -25,7 +25,5 @@ public class PommesEtPaniers {
         }
 
         System.out.println("Il faudra effectuer " + allersRetours + "  allers-retours");
-
-        scanner.close();
     }
 }
