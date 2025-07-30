@@ -5,20 +5,20 @@ import java.util.Scanner;
 
 public class Dichotomie {
 
-    public static int binarySearchIterative(int[] sortedArray, int key) {
+    public static int binarySearchIterative(int[] sortedArray, int cle) {
 
-        int leftIdx = 0;
-        int rightIdx = sortedArray.length - 1;
-        while (leftIdx <= rightIdx) {
-            int midIdx = (leftIdx + rightIdx) / 2;
-            if (sortedArray[midIdx] == key) {
-                return midIdx;
+        int gauche = 0;
+        int droite = sortedArray.length - 1;
+        while (gauche <= droite) {
+            int milieu = (gauche + droite) / 2;
+            if (sortedArray[milieu] == cle) {
+                return milieu;
             }
-            else if (sortedArray[midIdx] > key) {
-                    rightIdx = midIdx - 1;
+            else if (sortedArray[milieu] > cle) {
+                    droite = milieu - 1;
             }
             else {
-                    leftIdx = midIdx + 1;
+                    gauche = milieu + 1;
             }
         }
         return -1;
