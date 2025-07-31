@@ -31,9 +31,18 @@ public class main {
 
         Exo4_3 exo43 = new Exo4_3();
         exo43.dico1();
-*/
+
         Exo4_4 exo44 = new Exo4_4();
         exo44.maxResearch();
+
+        Exo5_1 exo51 = new Exo5_1();
+        exo51.compterX();
+
+        Exo5_2 exo52 = new Exo5_2();
+        exo52.occuR();
+ */
+        Exercice6 exercice6 = new Exercice6();
+        exercice6.tabFactorielle();
     }
 
 }
